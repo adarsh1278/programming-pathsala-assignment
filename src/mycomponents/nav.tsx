@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
             <Link href="/">
               <div className="flex gap-3">
                 
-                  <img src="/icon.png"/>
+                  <img src="/Icon.png"/>
                 <h2 className=" text-3xl font-medium leading-7 text-left hidden md:block dark:text-[#FFFFFF]">
                   Nextcent
                 </h2>
