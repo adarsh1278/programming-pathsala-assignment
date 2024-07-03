@@ -4,6 +4,7 @@ import Client from '@/mycomponents/client';
 import Community from '@/mycomponents/community/communit';
 import UnlockSection from '@/mycomponents/unlockSection';
 import Stastic from '@/mycomponents/stattistics';
+import Home2 from '@/mycomponents/home2';
 export default function Home(){
   const items = [
     {
@@ -14,7 +15,7 @@ export default function Home(){
       url: "/home1.png"
     },
     {
-      image: "/home1.png",
+      image: "/pana.png",
       heading: "Mastering Photography",
       subheading: "complete guide",
       description: "Learn the art of capturing stunning photographs with our comprehensive guide.",
@@ -42,6 +43,7 @@ export default function Home(){
        <Community/>
        <UnlockSection/>
        <Stastic/>
+       <Home2/>
     </div>
   );
 };
