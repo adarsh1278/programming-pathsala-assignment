@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from '@/mycomponents/imgCrouser';
 import Client from '@/mycomponents/client';
 import Community from '@/mycomponents/community/communit';
-
+import UnlockSection from '@/mycomponents/unlockSection';
 export default function Home(){
   const items = [
     {
@@ -39,6 +39,7 @@ export default function Home(){
       <Carousel items={items} />
        <Client/>
        <Community/>
+       <UnlockSection/>
     </div>
   );
 };
