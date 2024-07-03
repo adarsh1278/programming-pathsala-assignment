@@ -3,6 +3,7 @@ import Carousel from '@/mycomponents/imgCrouser';
 import Client from '@/mycomponents/client';
 import Community from '@/mycomponents/community/communit';
 import UnlockSection from '@/mycomponents/unlockSection';
+import Stastic from '@/mycomponents/stattistics';
 export default function Home(){
   const items = [
     {
@@ -40,6 +41,7 @@ export default function Home(){
        <Client/>
        <Community/>
        <UnlockSection/>
+       <Stastic/>
     </div>
   );
 };
