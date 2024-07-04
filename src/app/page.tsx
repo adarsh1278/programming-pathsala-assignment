@@ -7,6 +7,7 @@ import Stastic from '@/mycomponents/stattistics';
 import Home2 from '@/mycomponents/home2';
 import Customer from '@/mycomponents/customer';
 import Marketing from '@/mycomponents/marketing';
+import DemoPartHome from '@/mycomponents/demoPart';
 export default function Home(){
   const items = [
     {
@@ -48,6 +49,7 @@ export default function Home(){
        <Home2/>
        <Customer/>
        <Marketing/>
+       <DemoPartHome/>
     </div>
   );
 };
