@@ -6,6 +6,7 @@ import UnlockSection from '@/mycomponents/unlockSection';
 import Stastic from '@/mycomponents/stattistics';
 import Home2 from '@/mycomponents/home2';
 import Customer from '@/mycomponents/customer';
+import Marketing from '@/mycomponents/marketing';
 export default function Home(){
   const items = [
     {
@@ -46,6 +47,7 @@ export default function Home(){
        <Stastic/>
        <Home2/>
        <Customer/>
+       <Marketing/>
     </div>
   );
 };
