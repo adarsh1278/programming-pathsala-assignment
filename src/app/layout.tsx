@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider"
 
-
+import Footer from "@/mycomponents/Footer";
 
 import "./globals.css";
 import Header from "@/mycomponents/nav";
@@ -39,6 +39,7 @@ export default function RootLayout({
 
           <Header/>
           {children}
+          <Footer/>
           </ThemeProvider>
           </body>
       </html>

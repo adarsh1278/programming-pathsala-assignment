@@ -28,7 +28,6 @@ const NavItems: NavItem[] = [
   {
     id: 1,
     name: "Service",
-   
     link: "#",
   },
   {
@@ -43,7 +42,7 @@ const NavItems: NavItem[] = [
   },
   {
     id: 5,
-    name: "Testonimal",
+    name: "Testimonial",
     link: "#",
   },
   {
@@ -51,18 +50,17 @@ const NavItems: NavItem[] = [
     name: "FAQs",
     link: "#",
   },
- 
   {
     id: 6,
-    name:"Login",
+    name: "Login",
     link: "#",
-  }
+  },
 ];
 
 const Navbar: React.FC = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <div className="border border-x-0 border-y-0 border-b-[1px] border-[#27272A]">
+    <div className="fixed w-full bg-white dark:bg-gray-900 z-50 border-b-[1px] border-[#27272A]">
       <div className="max-w-screen-xl mx-auto">
         <div className="flex justify-between my-6 mx-8">
           {/* code for left side */}
@@ -70,12 +68,10 @@ const Navbar: React.FC = () => {
             {/* code for logo */}
             <Link href="/">
               <div className="flex gap-3">
-                
-                  <img src="/Icon.png"/>
-                <h2 className=" text-3xl font-medium leading-7 text-left hidden md:block dark:text-[#FFFFFF]">
+                <img src="/Icon.png" alt="Logo" />
+                <h2 className="text-3xl font-medium leading-7 text-left hidden md:block dark:text-[#FFFFFF]">
                   Nextcent
                 </h2>
-
               </div>
             </Link>
             {/* code for navitems */}
@@ -94,24 +90,11 @@ const Navbar: React.FC = () => {
               </ul>
             </div>
           </nav>
-          {/* styleName: p-regular;
-          font-family: Inter;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 28px;
-          text-align: left;
-          */}
 
           {/* code for right side */}
           <div className="flex gap-2.5">
             <div className="flex gap-2 md:gap-8">
-              <ModeToggle/>
-              {/* <button
-                className="dark:text-[#D9D9D9] text-gray-900 text-base leading-7 text-left font-normal"
-               
-              >
-                <Link href="/login"> Login</Link>
-              </button> */}
+              <ModeToggle />
               <button className="border border-gray-800 rounded-[6px] text-black bg-[#FAFAFA] px-4 py-1">
                 <Link
                   href="/signup"
