@@ -5,6 +5,7 @@ import Community from '@/mycomponents/community/communit';
 import UnlockSection from '@/mycomponents/unlockSection';
 import Stastic from '@/mycomponents/stattistics';
 import Home2 from '@/mycomponents/home2';
+import Customer from '@/mycomponents/customer';
 export default function Home(){
   const items = [
     {
@@ -44,6 +45,7 @@ export default function Home(){
        <UnlockSection/>
        <Stastic/>
        <Home2/>
+       <Customer/>
     </div>
   );
 };
