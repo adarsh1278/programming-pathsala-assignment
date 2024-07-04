@@ -4,7 +4,7 @@ export default function Marketing(){
         <div className=" text-black  text-center dark:text-white text-4xl font-serif">Caring is the new marketing</div>
         <div  className=" text-gray-500 text-center p-5  px-48"  >The Nexcent blog is the best place to read about the latest membership insights,
 trends and more. See who's joining the community, read about how our community
-are increasing their membership income and lot's more.</div>
+are increasing their membership income and lot" ''s more.</div>
         <div className=" h-fit w-full flex flex-col sm:flex-row justify-center items-center ">
             <div className=" h-fit w-full p-10   m-4">
 <img  src= "/image 18.png" className="    rounded-md  -z-10  absolute"/>
@@ -46,4 +46,4 @@ Australia
       </div>
       </div>
     )
-}
+} 
